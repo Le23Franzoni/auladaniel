@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --text-color: white;
+    --bg-url: url(./assets/bg-mobile.jpg);
+    /* cor da borda dos links no fundo escuro*/
+    --stroke-color: rgba(255, 255, 255, 0.5);
+    /* superfície dos links no fundo escuro */
+    --surface-color: rgba(255, 255, 255, 0.05);
+    /* superfície dos links no fundo escuro ao passar o mouse*/
+    --surface-color-hover: rgba(0, 0, 0, 0.02);
+    /* faz um realce nos ícones das redes socias */
+    --realce-color: rgba(255, 255, 255, 0.2);
+}
+.claro {
+    --text-color: black;
+    --bg-url: url(./assets/bg-mobile-light.jpg);
+    /* cor da borda dos links no fundo claro*/
+    --stroke-color: rgba(0, 0, 0, 0.5);
+    /* superfície dos links no fundo claro */
+    --surface-color: rgba(0, 0, 0, 0.05);
+    /* superfície dos links no fundo claro ao passar o mouse*/
+    --surface-color-hover: rgba(0, 0, 0, 0.2);
+    /* faz um realce nos ícones das redes socias */
+    --realce-color: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-image: var(--bg-url);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+   
+}
+
+
+body * {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+}
+
+#container{
+    width: 360px;
+    height: 712px;
+    border: 1px solid red;
+    margin: 50px auto 0px;
+    text-align: center;
+}
+
+#profile img {
+    width: 112px;
+}
+#profile p {
+    font-weight: 500;
+    line-height: 24px;   
+}
+
+#container ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0px;
+}
+
+#container ul li a {
+    display: flex;
+    border: 1px solid var(--stroke-color);
+    align-items: center; /* alinha em relação a vertical */
+    justify-content: center; /* alinha em relação a horizontal */
+    padding: 16px 24px; /* 16px top e bottom 24px right e left */ 
+    background: var(--surface-color);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+#container ul li a:hover {
+    background: var(--surface-color-hover);
+    border: 1px solid white;
+}
+
+#social-links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 24px 0px;
+    font-size: 24px;
+}
+
+#social-links a {
+    padding: 16px;
+    border-radius: 50px;
+    transition: background 2s;
+}
+
+#social-links a:hover {
+    background: var(--realce-color);
+}
+
+footer {
+    padding: 24px 0;
+    text-align: center;
+    font-size: 14px;
+}

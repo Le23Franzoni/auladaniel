@@ -1,0 +1,49 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+  
+h2 {
+    margin-bottom: 20px;
+}
+  
+input[type="number"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+  
+button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #313131;
+}
+
+#resultado {
+    margin-top: 50px;
+    font-size: large;
+    background-color: #a5a5a5;
+    border-radius: 5px;
+    padding: 30px;
+    height: 3vh;
+}
+
+#comentario {
+    margin-top: 50px;
+    margin-bottom: -20px;
+    height: 2vh;
+}

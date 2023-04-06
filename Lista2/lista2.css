@@ -1,0 +1,44 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+    width: 500px;
+    height: 400px;
+}
+
+#container div {
+    margin: 20px auto;
+}
+
+#h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#thebutton {
+    background-color: rgb(63, 63, 63);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#thebutton:hover {
+    background-color: rgb(153, 153, 153);
+    transition: 500ms;
+}
+
+#divescolha {
+    border: 2px solid black;
+    border-radius: 5px;
+}

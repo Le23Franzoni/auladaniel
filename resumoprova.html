@@ -1,0 +1,137 @@
+<!-- 
+______________________________________________________________________________________________________________________________________________________________
+HTML:
+
+<html>          indica o começo e o final de um documento html. 
+<head>          é usada para fornecer informações sobre o documento que não são exibidas na página, como o título, metadados e links para recursos externos
+<body>          contém todo o conteúdo visível da página.
+<link>          é usada para criar um link para um arquivo externo, como uma folha de estilo ou um ícone de página.
+<meta>          é usada para fornecer metadados sobre o documento, como a descrição da página, palavras-chave e codificação de caracteres.
+<title>         é usada para definir o título da página exibido na guia do navegador ou na lista de resultados de pesquisa.
+<script>        é usada para adicionar scripts do lado do cliente, como JavaScript, para adicionar interatividade ao documento.
+<div>           é usada para criar seções em um documento HTML e agrupar elementos relacionados.
+<img>           é usada para exibir imagens em um documento HTML.
+<p>             é usada para criar parágrafos em um documento HTML.
+<button>        é usada para criar botões em um documento HTML.
+<span>          é usada para aplicar estilos em uma pequena seção de texto ou agrupar elementos em linha.
+<ul>            é usada para criar listas não ordenadas em um documento HTML.
+<li>            é usada para criar itens de uma lista <ul> em um documento HTML.
+<table>         é usada para criar tabelas em um documento HTML.
+<a>             é usada para criar links em um documento HTML.
+<footer>        é usada para criar uma seção de rodapé em um documento HTML.
+______________________________________________________________________________________________________________________________________________________________
+CSS:
+
+margin:             define a margem ao redor do elemento e pode ter valores diferentes para cada lado (topo, direita, baixo, esquerda).
+padding:            define o preenchimento interno do elemento e pode ter valores diferentes para cada lado.
+background:         define a cor ou imagem de fundo do elemento.
+font-family:        define a fonte usada para o texto dentro do elemento.
+color:              define a cor do texto dentro do elemento.
+width:              define a largura do elemento.
+height:             define a altura do elemento.
+border:             define as bordas do elemento, incluindo largura, estilo e cor.
+text-align:         define a alinhamento horizontal do texto dentro do elemento.
+font-weight:        define o peso da fonte usada para o texto dentro do elemento.
+line-height:        define a altura da linha do texto dentro do elemento.
+list-style:         define o estilo de marcadores ou numeração de uma lista.
+display:            define como o elemento deve ser exibido (bloco, em linha, flexível, etc.).
+flex-direction:     define a direção dos itens flexíveis dentro do elemento.
+gap:                define o espaço entre os itens flexíveis dentro do elemento.
+align-items:        define a alinhamento vertical dos itens flexíveis dentro do elemento.
+justify-content:    define a alinhamento horizontal dos itens flexíveis dentro do elemento.
+text-decoration:    define a decoração do texto, como sublinhado ou negrito.
+border-radius:      define a curvatura dos cantos do elemento.
+transition:         define como uma propriedade deve ser animada ao mudar de um valor para outro.
+font-size:          define o tamanho da fonte usada para o texto dentro do elemento.
+position:           define como o elemento deve ser posicionado em relação a seu contêiner pai.
+top:                define a distância vertical do elemento em relação ao topo de seu contêiner pai.
+left:               define a distância horizontal do elemento em relação à esquerda de seu contêiner pai.
+z-index:            define a pilha de elementos em relação uns aos outros.
+transform:          define a transformação aplicada ao elemento.
+right:              define a distância horizontal do elemento em relação à direita de seu contêiner pai.
+______________________________________________________________________________________________________________________________________________________________
+JavaScript:
+
+Comandos de entrada e saída de dados: 
+
+Comandos de entrada e saída de dados: Os comandos de entrada são usados para obter informações do usuário, enquanto os comandos de saída são usados para exibir informações na tela.
+O comando document.getElementById().value é um exemplo de comando de entrada, que permite obter o valor de um elemento do HTML, no caso um input.
+O comando alert() é um exemplo de comando de saída, que exibe informações em uma caixa de diálogo no navegador.
+
+Exemplo:
+
+HTML:
+
+<input type="number" id="n1">
+<button onclick="calcular()">Calcular</button>
+
+Javascript:
+
+function calcular() {
+  let n1 = Number(document.getElementById("n1").value);
+  alert("O número digitado foi: " + n1);
+}
+
+Neste exemplo, o comando document.getElementById("n1").value é usado para obter o valor do input com id "n1" e armazená-lo na variável n1.
+Em seguida, o comando alert() é usado para exibir uma mensagem com o número digitado pelo usuário.
+______________________________________________________________________________________________________________________________________________________________
+Operadores lógicos e matemáticos: 
+
+Operadores lógicos e matemáticos são usados para realizar operações em JavaScript.
+Os operadores matemáticos incluem adição (+), subtração (-), multiplicação (*) e divisão (/). 
+Já os operadores lógicos incluem igualdade (==), maior que (>), menor que (<), e operadores lógicos de negação (!) e conjunção (&&).
+
+Exemplo:
+
+let x = 10;
+let y = 5;
+let z = x + y;
+
+alert(z)
+______________________________________________________________________________________________________________________________________________________________
+Estrutura de seleção if ... else:
+
+A estrutura de seleção if ... else é usada para executar diferentes blocos de código dependendo de uma condição. 
+Se a condição especificada for verdadeira, o bloco de código dentro do if é executado. Caso contrário, o bloco de código dentro do else é executado.
+
+let idade = 18;
+if (idade >= 18) {
+  alert("Você é maior de idade.");
+} else {
+  alert("Você é menor de idade.");
+}
+
+______________________________________________________________________________________________________________________________________________________________
+Exemplos de códigos que são difíceis de lembrar:
+
+Exemplo Botão:
+
+<button onclick="exe1()">Calcular</button>
+
+Exemplo Script Link:
+
+<script src="lista1.js"> </script>
+
+Exemplo CSS Link:
+
+<link rel="stylesheet" href="./style.css">
+
+Exemplo Div Input:
+
+<div>
+    Distância: <input type="number" id="distancia">
+</div>
+
+Exemplo resultado através de alert:
+
+alert("Essa é a resposta: " + resposta)
+
+Exemplo resultado através de innerHTML:
+
+document.getElementById("resultado").innerHTML = resposta (assumindo que você tenha uma div com ID="resultado" no seu HTML)
+
+Exemplo resultado através de textContent:
+
+document.getElementById("resultado").textContent = resposta (assumindo que você tenha uma div com ID="resultado" no seu HTML)
+
+-->
